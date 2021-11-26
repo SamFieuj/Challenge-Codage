@@ -1,0 +1,82 @@
+/* Write some CSS below */
+body{
+	font-family:Amiri;
+	font-size: 17px;
+	color: rgb(30,30,30);
+	background-color: rgb(230,230,230);
+	margin: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1, h2, h3 {
+	font-family:  Cinzel;
+}
+
+.banner {
+	text-align: center;
+	background-image: url(images/elephant-steps-chiang-rai.jpg);
+	background-position: center;
+	background-size: cover;
+	padding: 100px 0px;
+	color: white;
+}
+
+.banner h1 {
+	font-size: 45px;
+}
+
+.banner p {
+	font-size: 27px;
+}
+
+.btn-red {
+	color: white;
+	background-color: #F45D;
+	padding: 15px 45px;
+	margin-top: 30px;
+	border-radius: 30px;
+}
+
+.btn-red:hover {
+	opacity: 0.8;
+}
+
+.card-white img {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 4px;
+}
+
+.card-white {
+	background-color: white;
+	width: 200px;
+	padding: 24px;
+	text-align: center;
+	margin: 8px;
+	border-radius: 4px;
+	box-shadow: 5px 5px 16px rgba(0,0,0,8);
+}
+
+.container {
+	width: 900px;
+	margin:  auto;
+	text-align: center;
+	margin-bottom: 24px;
+}
+
+.footer {
+	text-align: center;
+	background-color: rgb(200,200,200);
+	padding: 14px;
+	margin-top: 30px;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
